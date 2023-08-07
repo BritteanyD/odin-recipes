@@ -1,13 +1,48 @@
-div {
-    background-color: peachpuff;
+html {
+    background-color:rgb(174, 219, 202);
+    border-color:rgba(35, 100, 62, 0.397);
+    border-style: groove;
+    border-width: 10px;
 }
 
 h1, h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: crimson
+    color: rgb(224, 18, 104);
+    text-align:center;
+}
+
+h1{
+    padding: 30px;
+}
+
+div {
+    margin-left: 900px;
+    margin-right: 50px;
+    display: block;
+    margin-top: -300px
+}
+
+.photos, #recipes {
+    height: 720px;
+    width: 720px;
+    border-style: ridge;
+    border-color: rgba(35, 100, 62, 0.397); 
+}
+
+.photos {
+    margin-left: 50px;
+}
+
+#recipes {
+    margin-left: 560px;
 }
 
 p, ul, ol {
-    color: darkcyan;
+    color: rgb(14, 44, 44);
     font-weight: 800;
 }
+
+/* add individual padding to pages and items
+2. align pictures on left and text on right
+4. put everything except title in box with bg color
+5. block list on homepage and space them out
